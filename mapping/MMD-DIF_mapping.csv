@@ -5,7 +5,7 @@ Metadata_identifier (M),Entry_ID (M),Entry_ID/ShortName (M),
 alternate_identifier,-,-,
 -,-,Version_Description,
 -,IDN_Node,IDN_Node,
-Last_metadata_udpdate/update/datetime (M),DIF_Creation_Date \n Last_DIF_Revision_Date,"Metadata_Dates/Metadata_Creation (M)
+Last_metadata_udpdate/update/datetime (M),DIF_Creation_Date "\n" Last_DIF_Revision_Date,"Metadata_Dates/Metadata_Creation (M)
 Metadata_Dates/Metadata_Last_Revision (M)","Use DIF_Creation_Date for mmd type is “Created”.
 Use Last_DIF_Revision_Date for mmd type is “Minor modification or Major modification”"
 Last_metadata_udpdate/update/type (M),-,-,
