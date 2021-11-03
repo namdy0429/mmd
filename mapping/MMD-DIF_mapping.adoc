@@ -1,3 +1,8 @@
+== MMD - DIF mapping table 
+(M) is a mandatory field, (CM) is a conditional mandatory field.
+
+[format="csv", options="header"]
+|===
 mmd,DIF 9.8.4,DIF 10.3,Notes
 Metadata_identifier (M),Entry_ID (M),Entry_ID/ShortName (M),
 -,-,Entry_ID/Version (M),
@@ -258,3 +263,4 @@ quality_control,Quality,Quality,
 -,Extended_Metadata,Extended_Metadata,
 -,Metadata_Name (M),Metadata_Name (M),Use “CEOS IDN DIF”
 -,Metadata_Version (M),Metadata_Version (M),Use 9.8.4 or 10.3
+===|
