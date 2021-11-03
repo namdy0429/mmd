@@ -10,18 +10,18 @@ Metadata_identifier (M),Entry_ID (M),Entry_ID/ShortName (M),
 alternate_identifier,-,-,
 -,-,Version_Description,
 -,IDN_Node,IDN_Node,
-Last_metadata_udpdate/update/datetime (M),"DIF_Creation_Date 
-Last_DIF_Revision_Date","Metadata_Dates/Metadata_Creation (M)
+last_metadata_udpdate/update/datetime (M),"DIF_Creation_Date 
+last_DIF_Revision_Date","Metadata_Dates/Metadata_Creation (M)
 Metadata_Dates/Metadata_Last_Revision (M)","Use DIF_Creation_Date for mmd type is “Created”.
 Use Last_DIF_Revision_Date for mmd type is “Minor modification or Major modification”"
-Last_metadata_udpdate/update/type (M),-,-,
-Last_metadata_udpdate/update/note,-,-,
+last_metadata_udpdate/update/type (M),-,-,
+last_metadata_udpdate/update/note,-,-,
 -,DIF_Revison_History,DIF_Revison_History,
 -,Private,Private,
-Metadata_status (M),-,-,
-Collection (M),-,-,
-Title (M),Entry_Title (M),Entry_Title (M),
-Abstract (M),Summary/Abstract (M),Summary/Abstract (M),
+metadata_status (M),-,-,
+collection (M),-,-,
+title (M),Entry_Title (M),Entry_Title (M),
+abstract (M),Summary/Abstract (M),Summary/Abstract (M),
 temporal_extent/start_date,Temporal_Coverage/Start_Date,Temporal_Coverage/Range_DateTime/Beginning_Date_Time,
 temporal_extent/end_date,Temporal_Coverage/End_Date,Temporal_Coverage/Range_DateTime/Ending_Date_Time,
 -,Paleo_Temporal_Coverage,Temporal_Coverage/Paleo_DateTime,
@@ -98,7 +98,6 @@ Personnel/Contact_Group/Phone/Type
 Organization/Personnel/Contact_Person/Phone/Number
 Organization/Personnel/Contact_Person/Phone/Type
 or
-
 Organization/Personnel/Contact_Group/Phone/Number
 Organization/Personnel/Contact_Group/Phone/Type",Dif 10.3 controlled voc. PhoneTypeEnum
 personnel/fax,"Personnel/Fax
