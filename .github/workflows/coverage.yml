@@ -16,8 +16,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
-
-    - name: run coverage testing
-      run: |
-        docker-compose -f docker-compose.coverage.yml up --exit-code-from coverage
+    - uses: actions/checkout@v2
+    - name: Run coverage testing
+      run: make docker-runtest-coverage
